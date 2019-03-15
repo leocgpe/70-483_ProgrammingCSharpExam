@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace ProgrammingCSharpExam
 {
@@ -6,7 +7,9 @@ namespace ProgrammingCSharpExam
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //_1_1_CreatingAThreadWithTheThreadClass.Execute();
+            //_1_2_UsingABackgroundThread.Execute();
+            _1_3_UsingtheParameterizedThreadStart.Execute();
         }
     }
 }
